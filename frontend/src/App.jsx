@@ -1,19 +1,12 @@
 import './App.css'
+import MovieCard from './components/MovieCard'
 
 function App() {
   return (
     <>
-      <Text display="What's up?"/>
-      <Text display="Hello!"></Text>
+      <MovieCard movie={{title: "Dini's Film", release_date: "2024"}}/>
+      <MovieCard movie={{title: "Roverdi's Film", release_date: "2020"}}/>
     </>
-  )
-}
-
-function Text({display}) {
-  return (
-    <div>
-      <p>{display}</p>
-    </div>
   )
 }
 
