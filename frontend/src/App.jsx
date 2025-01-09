@@ -3,8 +3,8 @@ import './App.css'
 function App() {
   return (
     <>
-      <Text display="What's up?" />
-      <Text display="Hello!"/>
+      <Text display="What's up?"/>
+      <Text display="Hello!"></Text>
     </>
   )
 }
